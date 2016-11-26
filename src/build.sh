@@ -26,6 +26,3 @@ make -j2
 make install
 echo 'PATH=$PATH:/opt/i3/bin i3' > $PREFIX/bin/start-i3
 chmod +x $PREFIX/bin/start-i3
-# cp /i3.desktop /usr/share/xsessions/i3.desktop
-# rm /opt/i3
-# ln -s $PREFIX /opt/i3

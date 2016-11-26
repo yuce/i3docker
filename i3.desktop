@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=i3
-Comment=improved dynamic tiling window manager
+Comment=Improved dynamic tiling window manager
 Exec=/opt/i3/bin/start-i3
 TryExec=/opt/i3/bin/start-i3
 Type=Application

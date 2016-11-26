@@ -15,8 +15,7 @@ RUN apt-get update && \
     libxcursor-dev libxcb-cursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev \
     xutils-dev autoconf
 
-COPY ./build.sh /
-# COPY ./i3.desktop /
+COPY ./src/build.sh /
 
 ENTRYPOINT ["/bin/bash", "/build.sh"]
 CMD ["4.13"]
