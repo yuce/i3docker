@@ -2,6 +2,10 @@
 
 Builds and installs i3 window manager version 4.13.
 
+## History
+
+- 2016-11-26: Initial version
+
 ## Requirements
 
 - Docker (version 1.12.1 on Ubuntu 16.04 repositories works just fine)
