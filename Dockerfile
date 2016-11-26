@@ -16,6 +16,7 @@ RUN apt-get update && \
     xutils-dev autoconf
 
 COPY ./build.sh /
+# COPY ./i3.desktop /
 
 ENTRYPOINT ["/bin/bash", "/build.sh"]
 CMD ["4.13"]
